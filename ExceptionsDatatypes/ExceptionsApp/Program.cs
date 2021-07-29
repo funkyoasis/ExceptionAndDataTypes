@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 
 namespace ExceptionsApp
 {
@@ -7,6 +8,36 @@ namespace ExceptionsApp
 	{
 		static void Main(string[] args)
 		{
+
+			var result = 5.50 / 5;
+
+			/*
+			int anInt = -3;     // explicitly typed
+			var anotherInt = 3; // implicitly typed
+			var anotherInt2 = anotherInt; // implicitly typed
+
+			var name = "Cathy";
+			var isClean = true;
+			var letter = 'P';
+			var ulongNum = 52uL;
+			var prices = new List<decimal>();
+
+			short n1 = -65;
+			ushort n2 = 65;
+			int n3 = -100_000;
+			uint n4 = 100_000;
+			uint n5 = 4_000_000_000;
+			long n6 = -5_000_000_000;
+			ulong n7 = 5_000_000_000;
+
+			float sum = 0;
+			for (int i = 0; i < 100_000; i++)
+			{
+				sum += 2 / 5.0f;
+			}
+			Console.WriteLine("2/5 added 100,000 times" + sum);
+			Console.WriteLine("2/5 multiplied 100,000 times " + 2/5.0f * 100_000);
+			*/
 			string text;
 			string fileName = "HelloWorld.txt";
 			try
